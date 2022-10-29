@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Poppins";
+  color: hsla(232, 12%, 34%, 1);
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  padding-top: 85px;
+  padding-bottom: 103px;
+  text-align: center;
+}
+header h2 {
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.166667px;
+}
+h1 {
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.166667px;
+}
+header p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.104167px;
+  padding-top: 15px;
+  opacity: 0.5;
+}
+.box {
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  padding: 28px;
+}
+.box h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.box p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.0902778px;
+  opacity: 0.5;
+}
+.box-img {
+  padding-top: 37px;
+  display: flex;
+  justify-content: flex-end;
+}
+.supervisor {
+  border-top: 5px solid hsla(180, 62%, 55%, 1);
+}
+.builder {
+  border-top: 5px solid hsla(0, 78%, 62%, 1);
+}
+
+.karma {
+  border-top: 5px solid hsla(34, 96%, 64%, 1);
+}
+.calculator {
+  border-top: 5px solid hsla(213, 47%, 67%, 0.5);
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.two-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .boxes {
+    flex-direction: row;
+    align-items: center;
+  }
+  .two-boxes {
+    width: 350px !important;
+  }
+  .box {
+    width: 290px !important;
+  }
+}
